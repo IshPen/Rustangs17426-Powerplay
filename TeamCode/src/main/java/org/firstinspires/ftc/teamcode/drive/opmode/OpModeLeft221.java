@@ -51,7 +51,7 @@ public class OpModeLeft221 extends LinearOpMode {
 
         //add in async arm movement
 
-        TrajectorySequence opmode1 = drive.trajectorySequenceBuilder(new Pose2d(-36, -63.5, Math.toRadians(180)))
+        TrajectorySequence opmode1 = drive.trajectorySequenceBuilder(new Pose2d(-36, -63.5, Math.toRadians(-180)))
                 .strafeTo(new Vector2d(-36,-12))
                 .lineTo(new Vector2d(cTX,cTY)) //cone terminal location
                 .waitSeconds(0.3)
@@ -61,7 +61,7 @@ public class OpModeLeft221 extends LinearOpMode {
                 .lineTo(new Vector2d(pJX, pJY)) //primary auton junction location
 
                 .lineTo(new Vector2d(-28, -12))
-                .lineToLinearHeading(new Pose2d(-38, -12, Math.toRadians(180)))
+                .lineToLinearHeading(new Pose2d(-38, -12, Math.toRadians(-180)))
                 .lineTo(new Vector2d(cTX, cTY)) //drop space location
                 .waitSeconds(0.3)
                 .lineTo(new Vector2d(-38,-12))
@@ -69,7 +69,7 @@ public class OpModeLeft221 extends LinearOpMode {
                 .lineTo(new Vector2d(pJX, pJY)) //primary auton junction location
 
                 .lineTo(new Vector2d(-28, -12))
-                .lineToLinearHeading(new Pose2d(-38, -12, Math.toRadians(180)))
+                .lineToLinearHeading(new Pose2d(-38, -12, Math.toRadians(-180)))
                 .lineTo(new Vector2d(cTX, cTY)) //drop space location
                 .waitSeconds(0.3)
                 .lineTo(new Vector2d(-38,-12))
@@ -77,7 +77,7 @@ public class OpModeLeft221 extends LinearOpMode {
                 .lineTo(new Vector2d(pJX, pJY)) //primary auton junction location
 
                 .lineTo(new Vector2d(-28, -12))
-                .lineToLinearHeading(new Pose2d(-38, -12, Math.toRadians(180)))
+                .lineToLinearHeading(new Pose2d(-38, -12, Math.toRadians(-180)))
                 .lineTo(new Vector2d(cTX, cTY)) //drop space location
                 .waitSeconds(0.3)
                 .lineTo(new Vector2d(-38,-12))
@@ -85,7 +85,7 @@ public class OpModeLeft221 extends LinearOpMode {
                 .lineTo(new Vector2d(pJX, pJY)) //primary auton junction location
 
                 .lineTo(new Vector2d(-28, -12))
-                .lineToLinearHeading(new Pose2d(-38, -12, Math.toRadians(180)))
+                .lineToLinearHeading(new Pose2d(-38, -12, Math.toRadians(-180)))
                 .lineTo(new Vector2d(cTX, cTY)) //drop space location
                 .waitSeconds(0.3)
                 .lineTo(new Vector2d(-38,-12))
